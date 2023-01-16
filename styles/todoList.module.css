@@ -1,0 +1,43 @@
+.row_list {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  border-bottom: 1px solid black;
+}
+.row_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row_list p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+.row_list a {
+  flex: 4;
+}
+.row_list p:first-child {
+  margin-left: 40px;
+}
+.row_list b:nth-child(1) {
+  margin-left: 32px;
+  flex: 1;
+  font-size: 20px;
+}
+.row_list b:nth-child(2) {
+  flex: 4;
+  font-size: 20px;
+}
+.row_list b:nth-child(3) {
+  flex: 1;
+  font-size: 20px;
+}
+.row_list b:nth-child(4) {
+  flex: 1;
+  font-size: 20px;
+}
+
+

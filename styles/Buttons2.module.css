@@ -1,0 +1,67 @@
+.button1 {
+  color: white;
+  background-color: #ff5656;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.button1:hover {
+  color: black;
+  background-color: #f1f1f1;
+  transition: 1s;
+}
+
+
+.button2 {
+  color: white;
+  background-color: #ff9700;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.button2:hover {
+  color: black;
+  background-color: #f1f1f1;
+  transition: 1s;
+}
+
+.button3 {
+  color: white;
+  background-color: black;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.button3:hover {
+  color: black;
+  background-color: #f1f1f1;
+  transition: 1s;
+}
+
+.button_div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px;
+}
+
+.button_div a {
+  text-decoration-line: none;
+}

@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+}
+.header h1 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.header hr {
+  border-color: black;
+}

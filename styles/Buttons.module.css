@@ -1,0 +1,26 @@
+.button {
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  color: black;
+  background-color: #f1f1f1;
+  transition: 1s;
+}
+
+.button_div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px;
+}
+
+.button_div a {
+  text-decoration-line: none;
+}
