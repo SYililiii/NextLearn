@@ -3,19 +3,11 @@ import Link from "next/link";
 import { useRouter } from 'next/router';
 import Index from "../../pages/index";
 import { useEffect, useState, Router, Route, Routes } from "react";
+import { allList } from '../../data/list';
 
 
 
 const TodoList = () => {
-    const [showList, setshowList] = useState([])
-
-    useEffect(() => {
-      fetch("/api/getList")
-      .then(res => res.json()).then(res=>{
-        setshowList(res);
-      });
-    },[]);
-
     return (
       <>
       <div className={styles.row_box}>
@@ -25,7 +17,7 @@ const TodoList = () => {
         <b>작성자</b>
         <b>작성일</b>
       </span>
-      {showList.list && showList.list.map((list,i) => (
+      {allList.map((list,i) => (
         <span className={styles.row_list}>
           <p>{i+1}</p>
           <Link href={`/Post?id=${list.id}`}>{list.title}</Link>

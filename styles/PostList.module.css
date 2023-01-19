@@ -1,0 +1,21 @@
+.row_box {
+  display: flex;
+  flex-direction: column;
+}
+.row_box span {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.row_box span b {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.row_box span p {
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

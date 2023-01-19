@@ -59,9 +59,13 @@
 .button_div {
   display: flex;
   justify-content: flex-end;
-  margin: 40px;
 }
 
 .button_div a {
   text-decoration-line: none;
+}
+
+/* 게시판 header아래 버튼 게시물 다 감싸는 div */
+.post_div {
+  padding: 100px;
 }

@@ -1,12 +1,13 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import { allList } from "../../data/list";
 
-import { allList } from '../../data/list';
 
 const findItem = (id) => {
-  return allList.filter(value => {
+  return allList.filter((value) => {
     return value.id == id;
-  })
-}
+  });
+};
+
 
 export default function handler(req, res) {
   const _id = req.query.id;
@@ -19,4 +20,7 @@ export default function handler(req, res) {
   }
 
   res.status(200).json(result);
+
 }
+
+
